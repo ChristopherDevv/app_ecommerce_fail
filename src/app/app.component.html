@@ -1,0 +1,9 @@
+<!-- @if(authSvc.isAuthenticated() && routeName != '/login'){
+  <app-primary-nav></app-primary-nav>
+} 
+
+<main [ngClass]="{ 'tw-ml-[18%] tw-mt-[4.5%] tw-h-screen tw-overflow-hidden tw-block': authSvc.isAuthenticated(), '': !authSvc.isAuthenticated() }">
+  <router-outlet />
+</main>
+ -->
+<router-outlet />
